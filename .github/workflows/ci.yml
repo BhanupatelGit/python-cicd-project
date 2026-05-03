@@ -20,3 +20,7 @@ jobs:
 
       - name: Check Python works
         run: python --version
+
+      - name: Run Tests
+        run: pytest
+        
